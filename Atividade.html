@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Elaborado</title>
+    <style>
+       .text
+       {
+        width: 300px;
+        height: 175px;
+       }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        Nome
+        <input type="text" class="caixa_larga" id="Nome">
+        <br> <br>
+        Endereço:
+        <input type="text" class="caixa_larga" id="Endereco">
+        <br> <br>
+        Cidade
+        <input type="text" class="caixa_larga" id="Cidade">
+        <br> <br>
+        <select id="estado">
+            <option>Amapá</option>
+            <option>Bahia</option>
+            <option>Paraná</option>
+            <option>Santa Catarina</option>
+            <option>Rio Grande do Sul</option>
+            <option selected>São Paulo</option>
+        </select>
+        
+    </fieldset>
+
+    <br> <br>
+
+    <fieldset>
+        <legend>Dados profissionais</legend>
+        <br>
+        Natureza do cargo 
+        <br> <Br>
+        <input type="radio" id="Gerencia" name="Cargos">
+        Gerência
+        <input type="radio" id="Financeiro" name="Cargos">
+        Financeiro
+        <input type="radio" id="Recepção" name="Cargos">
+        Recepção
+        <input type="radio" id="Administrativo" name="Cargos">
+        Administrativo
+        <input type="radio" id="Juridico" name="Cargos">
+        Jurídico
+        <br> <Br>
+        Área de interesse
+        <br>
+        <input type="checkbox" id="computação">computação
+        <input type="checkbox" id="biologia">Biologia
+        <input type="checkbox" id="Meio Ambiente">Meio Ambiente
+        <input type="checkbox" id="engenharia">Engernharia
+        <input type="checkbox" id="historia">História
+        <br> <br>
+        Mini-Curriculo:
+        <br>
+        <textarea class="text" id="curriculo"></textarea>
+    </fieldset>
+    <br> 
+    <div class="botoes">
+        <button>ENVIAR</button>
+        <button>LIMPAR</button>
+    </div>
+</body>
+</html>
